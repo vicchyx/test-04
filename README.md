@@ -15,8 +15,3 @@ Link to deployed application: https://vicchyx.github.io/workday-scheduler/
 
 Screenshots of project:
 ![Screenshot1](./assets/images/screenshot1.png)
-![Screenshot2](./assets/images/screenshot2.png)
-![Screenshot3](./assets/images/screenshot3.png)
-![Screenshot4](./assets/images/screenshot4.png)
-![Screenshot5](./assets/images/screenshot5.png)
-![Screenshot6](./assets/images/screenshot6.png)
