@@ -4,21 +4,23 @@ body {
     line-height: 1;
   }
   
+  /* Timeslot area */
   textarea {
-    background: transparent;
+    background: #fdd1df;
     border: none;
     resize: none;
-    color: #000000;
-    border-left: 1px solid black;
+    color: #ffffff;
+    border-left: 1px solid #fd4698;
     padding: 10px;
   }
   
+  /* Header */
   .jumbotron {
     text-align: center;
-    background-color: transparent;
-    color: black;
+    background-color: #fdd1df; 
+    color: #fd4698;
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 1px dashed #fd4698;
   }
   
   .description {
@@ -36,10 +38,12 @@ body {
     border-top: 1px solid white;
   }
   
+  /* Hour Square */
   .hour {
     background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
+    color: #fd4698;
+    border-top: 1px solid #fd4698;
+    border-left: 1px solid #fd4698;
   }
   
   .past {
@@ -57,22 +61,33 @@ body {
     color: white;
   }
   
-  .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06aed5;
-    color: white;
-  }
-  
-  .saveBtn i:hover {
-    font-size: 20px;
-    transition: all 0.3s ease-in-out;
-  }
-  
-.fa-solid {
-  position:absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate (-50%, -50%)
+ /* Styling for buttons */
+.saveBtn,
+.clearBtn {
+  border-left: 1px solid #fd4698;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: white;
+}
+
+/* Save Button colour */
+.saveBtn {
+  background-color: #fd4698;
+}
+
+/* Clear Button colour */
+.clearBtn {
+  background-color: #b9dffc;
+}
+
+/* Hover effect for buttons */
+.saveBtn:hover,
+.clearBtn:hover {
+  font-size: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* make the white-space normal as a custom style */
+.custom-row {
+  white-space: normal;
 }
