@@ -10,7 +10,7 @@ It contains:
 - Personalised colour scheme from the base code.
 
 
-Link to deployed application: https://vicchyx.github.io/password-generator/
+Link to deployed application: https://vicchyx.github.io/workday-scheduler/
 
 
 Screenshots of project:
